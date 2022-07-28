@@ -1,5 +1,12 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "admin": "apps/admin",
+    "admin-e2e": "apps/admin-e2e",
+    "ecommerce": "apps/ecommerce",
+    "ecommerce-e2e": "apps/ecommerce-e2e",
+    "ecommerce-feature-shell": "libs/ecommerce/feature-shell",
+    "ecommerce-ui": "libs/ecommerce/ui"
+  }
 }
