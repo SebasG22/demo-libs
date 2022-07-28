@@ -13,9 +13,30 @@
             "allow": [],
             "depConstraints": [
               {
-                "sourceTag": "*",
-                "onlyDependOnLibsWithTags": ["*"]
+                "sourceTag": "type:feature-shell",
+                "onlyDependOnLibsWithTags": ["type:ui", "type:feature-shell","type:data-access"]
+              },
+              {
+                "sourceTag": "type:ui",
+                "onlyDependOnLibsWithTags": ["type:ui", "type:feature-shell","type:data-access"]
+              },
+              {
+                "sourceTag": "type:data-access",
+                "onlyDependOnLibsWithTags": ["type:data-access"]
+              },
+              {
+                "sourceTag": "type:ui",
+                "onlyDependOnLibsWithTags": ["type:ui"]
+              },
+              {
+                "sourceTag": "type:app",
+                "onlyDependOnLibsWithTags": ["type:app","type:feature-shell"]
+              },
+              {
+                "sourceTag": "type:app-e2e",
+                "onlyDependOnLibsWithTags": ["type:app"]
               }
+              
             ]
           }
         ]

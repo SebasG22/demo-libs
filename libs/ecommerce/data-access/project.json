@@ -2,7 +2,9 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/ecommerce/data-access/src",
   "projectType": "library",
-  "tags": [],
+  "tags": [
+    "type:data-access"
+  ],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",

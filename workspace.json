@@ -8,6 +8,7 @@
     "ecommerce-data-access": "libs/ecommerce/data-access",
     "ecommerce-e2e": "apps/ecommerce-e2e",
     "ecommerce-feature-shell": "libs/ecommerce/feature-shell",
-    "ecommerce-ui": "libs/ecommerce/ui"
+    "ecommerce-ui": "libs/ecommerce/ui",
+    "ecommerce-ui-e2e": "apps/ecommerce-ui-e2e"
   }
 }
