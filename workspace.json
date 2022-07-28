@@ -5,6 +5,7 @@
     "admin": "apps/admin",
     "admin-e2e": "apps/admin-e2e",
     "ecommerce": "apps/ecommerce",
+    "ecommerce-data-access": "libs/ecommerce/data-access",
     "ecommerce-e2e": "apps/ecommerce-e2e",
     "ecommerce-feature-shell": "libs/ecommerce/feature-shell",
     "ecommerce-ui": "libs/ecommerce/ui"

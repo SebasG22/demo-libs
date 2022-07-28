@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@novaventa/ecommerce/data-access": [
+        "libs/ecommerce/data-access/src/index.ts"
+      ],
       "@novaventa/ecommerce/feature-shell": [
         "libs/ecommerce/feature-shell/src/index.ts"
       ],
