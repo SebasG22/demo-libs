@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/react';
 import { Card, CardProps } from './card';
 
 export default {
-  component: Card,
+  componentTitle: Card,
   title: 'Mycard',
 } as Meta;
 
