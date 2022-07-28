@@ -24,6 +24,8 @@
       }
     }
   },
-  "tags": [],
+  "tags": [
+    "type:app-e2e"
+  ],
   "implicitDependencies": ["ecommerce-ui"]
 }
